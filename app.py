@@ -1,5 +1,4 @@
-from flask import Flask
-app=Flask(__name__)
+from ung_dung import app
 
 @app.route('/')
 def index():
